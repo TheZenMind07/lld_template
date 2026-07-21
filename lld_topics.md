@@ -165,4 +165,16 @@
     Integer fastestResult = executor.invokeAny(Arrays.asList(() -> 1, () -> 2));
 
   ```
-  
+
+* BlockingQueue 
+    
+    ```aiignore
+    BlockingQueue<String> queue = new LinkedBlockingQueue<>(10); // Bounded capacity of 10
+
+    // 1. Put: Blocks the producer thread indefinitely if the queue is full (size == 10)
+    queue.put("JobData");
+    
+    // 2. Take: Blocks the consumer thread indefinitely if the queue is empty (size == 0)
+    String job = queue.take();
+
+    ```
