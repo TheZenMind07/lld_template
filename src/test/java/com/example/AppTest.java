@@ -1,8 +1,7 @@
 package com.example;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 class AppTest {
     @Test
@@ -15,5 +14,6 @@ class AppTest {
         assertEquals("Alice", person.getName());
         assertEquals(30, person.getAge());
         assert(person.getName().equals("Alice"));
+        
     }
 }
