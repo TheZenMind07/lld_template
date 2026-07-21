@@ -1,6 +1,8 @@
 package com.example;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import com.example.domain.Person;
 import org.junit.jupiter.api.Test;
 
 class AppTest {

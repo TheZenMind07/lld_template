@@ -1,0 +1,9 @@
+Splitwise :
+    1. user -> create a group (admin)
+    2. user create expense (group or individuals)
+    3. user -> view expense in a group
+    4. user -> his personal expenses
+
+    1. follow up
+        debt simplification
+
